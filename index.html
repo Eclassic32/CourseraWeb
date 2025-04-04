@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Travel Destinations</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery {
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+            flex-wrap: wrap;
+        }
+        
+        .gallery figure {
+            width: 25%;
+            margin: 10px;
+            text-align: center;
+        }
+        
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Top Travel Destinations 2023</h1>
+        <nav>
+            <a href="https://www.nationalgeographic.com/travel/" target="_blank">More Travel Ideas</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="destinations">
+            <h2>Places You Must Visit</h2>
+            <ul>
+                <li>Kyoto, Japan</li>
+                <li>Santorini, Greece</li>
+                <li>Machu Picchu, Peru</li>
+            </ul>
+            
+            <div class="gallery">
+                <figure>
+                    <img src="https://cdn.getyourguide.com/img/location/54b4098a1e15d.jpeg/88.jpg" alt="Kyoto Japan temple view">
+                    <figcaption>Beautiful temples in Kyoto</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="https://www.tripsavvy.com/thmb/1Ajx7R6KTGTyQ2yBWWlGqoOftLQ=/3845x2563/filters:fill(auto,1)/GettyImages-461358497-590d4e663df78c9283ec10ac.jpg" alt="White buildings in Santorini">
+                    <figcaption>Stunning white architecture of Santorini</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="https://peru-volunteer.com/wp-content/uploads/2019/04/8b34bf3d-cb4d-43fc-8632-d797c2ad19ce.jpeg" alt="Machu Picchu landscape">
+                    <figcaption>The ancient ruins of Machu Picchu</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Travel Explorer</p>
+    </footer>
+</body>
+</html>
