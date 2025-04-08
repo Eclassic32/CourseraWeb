@@ -22,7 +22,11 @@ main {
 
 /* Style for footer */
 footer {
-  background-color: #ddd;
+  background-color: #F5F5F5;
+}
+
+footer a {
+    color: #0052A3;
 }
 
 /* Style for li */
