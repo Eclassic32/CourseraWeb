@@ -1,0 +1,92 @@
+/* Style for body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style for header */
+header {
+  background-color: #f4f4f4;
+}
+
+/* Style for nav */
+nav {
+  display: inline-block;
+  width: 80%;
+  background-color: #8dffbf;
+}
+
+/* Style for images inside nav */
+nav img {
+  width: 10%;
+}
+
+/* Style for main */
+main {
+  background-color: #f9f9f9;
+  font-size: 18px;
+}
+
+/* Style for footer */
+footer {
+  background-color: #F5F5F5;
+}
+
+footer a {
+    color: #0052A3;
+}
+
+/* Style for li */
+/* li {
+  display: inline-block;
+  width: 150px;
+} */
+
+/* Skip to Main Content link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Style for grid class */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+/* Style for images inside grid class */
+.grid img {
+  width: 100%;
+}
+
+/* Style for flex class */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Style for h1 */
+h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+
+/* Style for p */
+p {
+  line-height: 1.6;
+}
